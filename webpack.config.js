@@ -48,7 +48,9 @@ module.exports = (_, argv) => ({
       filename: "remoteEntry.js",
       remotes: {
         host:
-          "host@https://react-webpack-module-federation-host.vercel.app/remoteEntry.js",
+          // change this URL in order to consume your personal grapple UI modules
+          // "host@https://react-webpack-module-federation-host.vercel.app/remoteEntry.js",
+          "gruim@http://gruim.dev.grpl.io/remoteEntry.js",
       },
       exposes: {},
       shared: {
